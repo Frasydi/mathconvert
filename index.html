@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Convert</title>
     <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
 </head>
 <style>
     input {
@@ -26,9 +27,15 @@
     }
 
     .output {
+        padding-top: 5%;
         text-align: center;
         font-weight: bold;
         font-size:large;
+    }
+    hr {
+        margin-top: 10%;
+        margin-bottom: 10%;
+
     }
 </style>
 <body>
@@ -43,5 +50,20 @@
 
     <div class="output read"></div>
     <div class="output result"></div>
+    <hr>
+    <h1 style="text-align:center;padding-bottom:5%">Expresi Matematika ke Angka</h1>
+
+    <label for="text2">Text</label>
+    <input type="text" id="text2" name="text2" value="">
+
+    <div class="btn">
+        <button onclick="start2()" >Convert</button>
+    </div>
+
+    <div class="output read2"></div>
+    <p style="text-align:center">Sama Dengan</p>
+    <div class="output result2"></div>
+    <div class="output result3"></div>
+    <hr>
 </body>
 </html>
